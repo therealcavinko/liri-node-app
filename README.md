@@ -14,3 +14,6 @@ To call the IMBD API and find the details of the movie you searched for.
 - "do-what-it-says" 
 reads the random.txt file
 
+
+
+> This app is used to find music, concerts, and movies! 
