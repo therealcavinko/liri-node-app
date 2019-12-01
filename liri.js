@@ -41,7 +41,7 @@ function searchForBandsInTown(artist) {
                 console.log("Event Venue: " + response.data[0].venue.name);
                 console.log("Event Location: " + response.data[0].venue.city);
                 var eventDateTime = moment(response.data[0].datetime);
-                console.log("Event Date & Time: " + eventDateTime.format("dd, MM, YY"));
+                console.log("Event Date & Time: " + eventDateTime.format("DD, MM, YY"));
             }
             else {
                 console.log("No results found.");
