@@ -90,7 +90,7 @@ function errorConditionForSpotify() {
             }
         }).catch(function (error) {
             console.log(error);
-            console.log("No Results found. ");
+            console.log("No Results found.");
         });
 }
 
@@ -114,7 +114,7 @@ function movieThis(movie) {
         }
     ).catch(function (error) {
         console.log(error);
-        console.log("No Results found. ");
+        console.log("No Results found.");
     });
 }
 
